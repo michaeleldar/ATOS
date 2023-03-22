@@ -166,6 +166,7 @@ user_config.write(
         "rm -r turbowarp-desktop",
         "pacman -S pip python3",
         "pip install scratchattach"
+        "npm install @errorgamer2000/scratch-cloud"
 ]
 {'}'}"""
 )
