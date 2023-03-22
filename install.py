@@ -151,7 +151,7 @@ user_config.write(
 "version": "2.5.0",
 "packages": ["xorg", "xorg-server", "gnome"],
 "custom-commands": [
-        "pacman -Syu"
+        "pacman -Syu",
         "systemctl enable gdm.service",
         "pacman -S NetworkManager",
         "pacman -S git",
