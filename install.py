@@ -155,18 +155,7 @@ user_config.write(
         "systemctl enable gdm.service",
         "pacman -S NetworkManager",
         "pacman -S git",
-        "sysetmctl enable NetworkManager",
-        "git clone --recursive https://github.com/TurboWarp/desktop turbowarp-desktop",
-        "cd turbowarp-desktop",
-        "pacman -S nodejs npm",
-        "npm ci",
-        "npm run fetch",
-        "npm run dist",
-        "cd ..",
-        "rm -r turbowarp-desktop",
-        "pacman -S pip python3",
-        "pip install scratchattach"
-        "npm install @errorgamer2000/scratch-cloud"
+        "sysetmctl enable NetworkManager"
 ]
 {'}'}"""
 )
