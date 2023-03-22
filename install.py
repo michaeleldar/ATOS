@@ -161,7 +161,11 @@ user_config.write(
         "pacman -S nodejs npm",
         "npm ci",
         "npm run fetch",
-        "npm run dist"
+        "npm run dist",
+        "cd ..",
+        "rm -r turbowarp-desktop",
+        "pacman -S pip python3",
+        "pip install scratchattach"
 ]
 {'}'}"""
 )
